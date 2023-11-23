@@ -1,0 +1,25 @@
+
+
+<!-- animation link css required -->
+<link rel="stylesheet" href="assets/vendor/css/animated.css">
+<!-- animation link css required -->
+
+
+<!-- Note: if tilt is applied on same tag it wont work -->
+<!-- body -->
+<div data-wow-duration="1s" data-wow-duration="1s" class="wow fadeInUp">
+  <div data-tilt="">
+    <!-- content here -->
+  </div>
+</div>
+<!-- body -->
+
+
+
+<!-- animatins scripts required -->
+<script src="assets/vendor/js/jquery-1.12.4.min.js"></script>
+<script src="assets/vendor/js/tilt.jquery.js"></script>
+<script src="assets/vendor/js/animation.js"></script>
+<!-- animatins scripts required -->
+
+

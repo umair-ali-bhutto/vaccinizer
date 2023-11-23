@@ -1,0 +1,76 @@
+@font-face {
+    font-family: barlow-medium;
+    src: url(Barlow-Medium.ttf);
+  }
+*{
+    
+    word-wrap: none;
+    
+font-family:barlow-medium;
+}
+*::selection{
+    background-color: #000000;
+    color: #ff9906;
+}
+.button{
+    border-radius: 30px;
+    background-color: #a300cb;
+    color:white;
+    padding: 2% 7%;
+    z-index: 2;
+    transition: 100ms ease-in;
+}
+.button:hover{
+    background-color: #000000;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #ff9906;
+    box-shadow: #000000 0px 20px 15px -10px;
+}
+.form input{
+    border-radius: 20px;
+    padding: 2%;
+    
+}
+.form{
+   padding:2%;
+}
+.form input:focus{
+    
+
+    background-color: black;
+    color: #ff9906;
+   box-shadow: #a300cb 0px 0px 12px -1px ;
+}
+.link{
+    font-size: large;
+}
+.link:hover{
+color: #ff9906;
+}
+.profile{
+    font-size: larger;
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    background-color: #000000;
+    color:#ff9906;
+    border-radius: 20px;
+    transition: all 300ms;
+}
+.profile:hover{
+    
+    background-color: #a300cb;
+    color:white;
+}
+#select{
+    border-radius: 20px;
+    padding: 1%;
+}
+.option{
+    border-radius: 20px;
+    background-color: #000000;
+
+}
+
+
